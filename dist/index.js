@@ -669,7 +669,7 @@ gsap.to("#pulseSvg", {
 });
 gsap.to(".rotate-image", {
     rotation: 360,
-    duration: 2,
+    duration: 4,
     repeat: -1,
     ease: "linear"
 });

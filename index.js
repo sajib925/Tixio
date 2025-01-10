@@ -1,10 +1,3 @@
-var reeller = new Reeller.Reeller({
-  container: '.partner_logo-content-wrapper',
-  wrapper: '.partner_logo-wrapper',
-  itemSelector: '.partner_logo',
-  speed: 10,
-});
-
 document.addEventListener("DOMContentLoaded", function () {
     const tabs = document.querySelectorAll(".about-tixio_heading-wrap");
   
@@ -94,7 +87,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     gsap.to(".rotate-image", {
       rotation: 360, 
-      duration: 2,   
+      duration: 4,   
       repeat: -1,    
       ease: "linear" 
     });
+
+
+ 
