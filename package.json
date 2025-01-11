@@ -1,9 +1,9 @@
 {
   "name": "tixio",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "cms-filters.js",
   "scripts": {
-    "start": "parcel index.js --hmr-port 50619"
+    "start": "parcel cms-filters.js --hmr-port 50619"
   },
   "author": "",
   "license": "ISC",
